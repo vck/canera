@@ -8,3 +8,4 @@ export CGO_LDFLAGS="-Xlinker -rpath=./libnfc.so.5 -lnfc"
 export GOARCH=arm
 
 go build -ldflags "-s -w"
+scp canera pi@raspberrypi.local:/home/pi/
